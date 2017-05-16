@@ -1,2 +1,2 @@
 # ConnectionRedis
-Gerenciar conexão com banco de dados Redis
+Gerenciar conexão Redis
