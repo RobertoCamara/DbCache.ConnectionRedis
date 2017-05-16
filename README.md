@@ -9,4 +9,5 @@ Exemplo de projeto utilizando o database in-memory Redis
 ### Referências
 - Download Redis para windows (https://github.com/MSOpenTech/redis/releases)
 - MsOpenTech (https://github.com/MSOpenTech/redis)
+- StackExchange.Redis (https://github.com/StackExchange/StackExchange.Redis)
 - Redis (https://redis.io/)
