@@ -1,2 +1,2 @@
 # ConnectionRedis
-Gerenciar conexão Redis
+Exemplo de projeto utilizando o database in-memory Redis 
