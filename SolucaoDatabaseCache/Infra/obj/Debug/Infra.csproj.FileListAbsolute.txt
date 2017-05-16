@@ -1,9 +1,0 @@
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\Infra\bin\Debug\Infra.dll
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\Infra\bin\Debug\Infra.pdb
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\Infra\bin\Debug\StackExchange.Redis.dll
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\Infra\bin\Debug\StackExchange.Redis.xml
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\Infra\obj\Debug\Infra.csprojResolveAssemblyReference.cache
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\Infra\obj\Debug\Infra.dll
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\Infra\obj\Debug\Infra.pdb
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\Infra\bin\Debug\Newtonsoft.Json.dll
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\Infra\bin\Debug\Newtonsoft.Json.xml
