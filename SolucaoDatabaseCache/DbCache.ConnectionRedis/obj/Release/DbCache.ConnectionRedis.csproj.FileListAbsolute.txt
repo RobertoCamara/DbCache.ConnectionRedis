@@ -1,0 +1,9 @@
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\DbCache.ConnectionRedis\bin\Release\DbCache.ConnectionRedis.dll
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\DbCache.ConnectionRedis\bin\Release\DbCache.ConnectionRedis.pdb
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\DbCache.ConnectionRedis\bin\Release\Newtonsoft.Json.dll
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\DbCache.ConnectionRedis\bin\Release\StackExchange.Redis.dll
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\DbCache.ConnectionRedis\bin\Release\Newtonsoft.Json.xml
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\DbCache.ConnectionRedis\bin\Release\StackExchange.Redis.xml
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\DbCache.ConnectionRedis\obj\Release\DbCache.ConnectionRedis.dll
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\DbCache.ConnectionRedis\obj\Release\DbCache.ConnectionRedis.pdb
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\DbCache.ConnectionRedis\obj\Release\DbCache.ConnectionRedis.csprojResolveAssemblyReference.cache

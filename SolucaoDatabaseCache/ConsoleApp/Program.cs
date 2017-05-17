@@ -5,6 +5,7 @@ using System.Linq;
 
 namespace ConsoleApp
 {
+
     class Program
     {
         const string LOGIN_ADM = "admin";
@@ -143,7 +144,7 @@ namespace ConsoleApp
             var keys = conn.GetAllDatabaseKeys();
             foreach (var key in keys)
             {
-                Usuario usuario = conn.GetBy<Usuario>(key);
+                Usuario usuario = conn.GetByDeserializeObject<Usuario>(key);
                 if (usuario != null)
                 {
                     Console.WriteLine("=================================================");
@@ -158,14 +159,14 @@ namespace ConsoleApp
                     }
                     Console.WriteLine("=================================================");
                     Console.WriteLine("\r\n");
-                    
-                    
                 }
             }
+            if (keys.Count() == 0)
+                Console.WriteLine("Nenhum usuário encontrado.");
 
             Console.ReadKey();
             Menu();
-            
+
         }
 
         private static void ObterUsuario()
@@ -174,7 +175,7 @@ namespace ConsoleApp
             Console.WriteLine("# ========== CONSULTAR USUÁRIO ========== #");
             Console.Write("Pesquisar por Login: ");
             string opcao = Console.ReadLine();
-            Usuario usuario = conn.GetBy<Usuario>(opcao);
+            Usuario usuario = conn.GetByDeserializeObject<Usuario>(opcao);
             if (usuario != null)
             {
                 Console.WriteLine("-------------------------------------------------");

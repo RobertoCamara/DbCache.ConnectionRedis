@@ -16,10 +16,17 @@ namespace DbCache.ConnectionRedis.Persistence
         private readonly int _port;
         private readonly int _idDb;
 
-        private static Lazy<ConnectionMultiplexer> _redis;
+        private Lazy<ConnectionMultiplexer> _redis;
         private readonly ConfigurationOptions _configOptions;
-        private static IDatabase _database { get; set; }
+        public IDatabase DatabaseContext { get; private set; }
 
+        /// <summary>
+        /// Contructor
+        /// </summary>
+        /// <param name="host">Host to create endpoint</param>
+        /// <param name="port">Port to create endpoint</param>
+        /// <param name="allowAdmin">Indicates whether admin operations should be allowed</param>
+        /// <param name="idDb">Database identifier</param>
         public DbRedis(string host, int port, bool allowAdmin = true, int idDb = 0)
         {
             _host = host;
@@ -32,22 +39,12 @@ namespace DbCache.ConnectionRedis.Persistence
                 AllowAdmin = allowAdmin
             };
 
-        }
-
-        /// <summary>
-        /// Connect lazy
-        /// </summary>
-        private void Connect()
-        {
-            if (_redis == null)
+            _redis = new Lazy<ConnectionMultiplexer>(() =>
             {
-                _redis = new Lazy<ConnectionMultiplexer>(() =>
-                {
-                    return ConnectionMultiplexer.Connect(configuration: _configOptions);
-                });
+                return ConnectionMultiplexer.Connect(configuration: _configOptions);
+            });
 
-                _database = _redis.Value.GetDatabase(db: _idDb);
-            }
+            DatabaseContext = _redis.Value.GetDatabase(db: _idDb);
         }
 
         /// <summary>
@@ -56,7 +53,6 @@ namespace DbCache.ConnectionRedis.Persistence
         /// <returns></returns>
         private IServer GetServer()
         {
-            Connect();
             return _redis.Value.GetServer(hostAndPort: string.Concat(_host, ":", _port.ToString()));
         }
 
@@ -66,19 +62,7 @@ namespace DbCache.ConnectionRedis.Persistence
         /// <returns>IEnumerable<RedisKey></returns>
         private IEnumerable<RedisKey> GetAllRedisKey()
         {
-            Connect();
             return GetServer().Keys(database: _idDb, pattern: default(RedisValue), pageSize: 10, flags: CommandFlags.None);
-        }
-
-        /// <summary>
-        /// Save or update object
-        /// </summary>
-        /// <param name="key">String key</param>
-        /// <param name="value">Object value</param>
-        public void SaveOrUpdate(string key, object value)
-        {
-            Connect();
-            _database.SetAdd(key, (RedisValue)value);
         }
 
         /// <summary>
@@ -87,12 +71,10 @@ namespace DbCache.ConnectionRedis.Persistence
         /// <typeparam name="T">Generic object</typeparam>
         /// <param name="key">String key</param>
         /// <param name="value">Generic object value</param>
-        /// <param name="isSerialize">Flag serialize object</param>
-        public void SaveOrUpdate<T>(string key, T value, bool isSerialize = true)
+        public void SaveOrUpdate<T>(string key, T value)
         {
-            Connect();
-            string json = isSerialize ? JsonConvert.SerializeObject(value) : Convert.ToString(value);
-            _database.StringSet(key, json);
+            string json = JsonConvert.SerializeObject(value);
+            DatabaseContext.StringSet(key, json);
         }
 
         /// <summary>
@@ -101,24 +83,12 @@ namespace DbCache.ConnectionRedis.Persistence
         /// <typeparam name="T">Generic object</typeparam>
         /// <param name="key">String key</param>
         /// <returns>Object T</returns>
-        public T GetBy<T>(string key)
+        public T GetByDeserializeObject<T>(string key)
         {
-            Connect();
-            if (_database.KeyExists(key))
-                return JsonConvert.DeserializeObject<T>(_database.StringGet(key));
+            if (DatabaseContext.KeyExists(key))
+                return JsonConvert.DeserializeObject<T>(DatabaseContext.StringGet(key));
 
             return default(T);
-        }
-
-        /// <summary>
-        /// Get by key
-        /// </summary>
-        /// <param name="key"></param>
-        /// <returns></returns>
-        public string GetBy(string key)
-        {
-            Connect();
-            return _database.StringGet(key);
         }
 
         /// <summary>
@@ -127,9 +97,8 @@ namespace DbCache.ConnectionRedis.Persistence
         /// <param name="key"></param>
         public void Delete(string key)
         {
-            Connect();
-            if (_database.KeyExists(key))
-                _database.KeyDelete(key);
+            if (DatabaseContext.KeyExists(key))
+                DatabaseContext.KeyDelete(key);
         }
 
         /// <summary>
@@ -138,7 +107,6 @@ namespace DbCache.ConnectionRedis.Persistence
         /// <returns></returns>
         public IEnumerable<string> GetAllDatabaseKeys()
         {
-            Connect();
             return GetAllRedisKey().Select(s => s.ToString());
         }
 
