@@ -52,3 +52,4 @@
 - MsOpenTech (https://github.com/MSOpenTech/redis)
 - StackExchange.Redis (https://github.com/StackExchange/StackExchange.Redis)
 - Redis (https://redis.io/)
+- Manager Redis (https://redisdesktop.com/)
