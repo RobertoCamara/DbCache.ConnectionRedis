@@ -2,12 +2,13 @@
 - Exemplo de projeto utilizando o database in-memory Redis 
 - Encapsula a conexão e estende métodos do Redis.
   
-### Instalação - DbRedis
+### Instalação
 ```
 Install-Package DbCache.ConnectionRedis
 ```
   
-### Exemplos - DbRedis
+### Exemplo 
+- DbRedis
 ```csharp
     class Cliente
     {
@@ -57,7 +58,8 @@ Install-Package DbCache.ConnectionRedis
   </appSettings>
 ```
 
-### Exemplos - DbRedisSingleInstance
+### Exemplo 
+- DbRedisSingleInstance
 ```csharp
 class Cliente
     {
