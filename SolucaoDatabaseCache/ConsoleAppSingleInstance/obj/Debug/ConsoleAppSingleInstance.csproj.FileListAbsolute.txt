@@ -1,0 +1,13 @@
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\ConsoleAppSingleInstance.exe.config
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\ConsoleAppSingleInstance.exe
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\ConsoleAppSingleInstance.pdb
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\DbCache.ConnectionRedis.dll
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\StackExchange.Redis.dll
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\Newtonsoft.Json.dll
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\DbCache.ConnectionRedis.pdb
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\StackExchange.Redis.xml
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\Newtonsoft.Json.xml
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\obj\Debug\ConsoleAppSingleInstance.csprojResolveAssemblyReference.cache
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\obj\Debug\ConsoleAppSingleInstance.exe
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\obj\Debug\ConsoleAppSingleInstance.pdb
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\prmToolkit.ValidateCondition.dll

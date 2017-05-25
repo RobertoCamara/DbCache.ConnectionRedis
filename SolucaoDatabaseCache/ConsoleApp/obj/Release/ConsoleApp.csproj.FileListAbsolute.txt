@@ -1,0 +1,12 @@
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleApp\bin\Release\ConsoleApp.exe.config
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleApp\bin\Release\ConsoleApp.exe
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleApp\bin\Release\ConsoleApp.pdb
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleApp\bin\Release\DbCache.ConnectionRedis.dll
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleApp\bin\Release\StackExchange.Redis.dll
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleApp\bin\Release\Newtonsoft.Json.dll
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleApp\bin\Release\DbCache.ConnectionRedis.pdb
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleApp\bin\Release\StackExchange.Redis.xml
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleApp\bin\Release\Newtonsoft.Json.xml
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleApp\obj\Release\ConsoleApp.csprojResolveAssemblyReference.cache
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleApp\obj\Release\ConsoleApp.exe
+C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleApp\obj\Release\ConsoleApp.pdb

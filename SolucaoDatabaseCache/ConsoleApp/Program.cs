@@ -1,4 +1,5 @@
 ﻿using DbCache.ConnectionRedis.Persistence;
+using StackExchange.Redis;
 using System;
 using System.Collections.Generic;
 using System.Linq;
