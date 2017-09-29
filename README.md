@@ -5,6 +5,8 @@
 ### Instalação
 ```
 Install-Package DbCache.ConnectionRedis
+
+Install-Package DbCache.ConnectionRedis.Standard
 ```
   
 ### Exemplo 
