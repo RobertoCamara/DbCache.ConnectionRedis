@@ -1,9 +1,9 @@
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\DbCache.ConnectionRedis\bin\Debug\DbCache.ConnectionRedis.dll
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\DbCache.ConnectionRedis\bin\Debug\DbCache.ConnectionRedis.pdb
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\DbCache.ConnectionRedis\bin\Debug\Newtonsoft.Json.dll
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\DbCache.ConnectionRedis\bin\Debug\StackExchange.Redis.dll
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\DbCache.ConnectionRedis\bin\Debug\Newtonsoft.Json.xml
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\DbCache.ConnectionRedis\bin\Debug\StackExchange.Redis.xml
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\DbCache.ConnectionRedis\obj\Debug\DbCache.ConnectionRedis.dll
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\DbCache.ConnectionRedis\obj\Debug\DbCache.ConnectionRedis.pdb
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\DbCache.ConnectionRedis\obj\Debug\DbCache.ConnectionRedis.csprojResolveAssemblyReference.cache
+C:\Roberto\SolucaoDatabaseCache\DbCache.ConnectionRedis\bin\Debug\DbCache.ConnectionRedis.dll
+C:\Roberto\SolucaoDatabaseCache\DbCache.ConnectionRedis\bin\Debug\DbCache.ConnectionRedis.pdb
+C:\Roberto\SolucaoDatabaseCache\DbCache.ConnectionRedis\bin\Debug\Newtonsoft.Json.dll
+C:\Roberto\SolucaoDatabaseCache\DbCache.ConnectionRedis\bin\Debug\StackExchange.Redis.dll
+C:\Roberto\SolucaoDatabaseCache\DbCache.ConnectionRedis\bin\Debug\Newtonsoft.Json.xml
+C:\Roberto\SolucaoDatabaseCache\DbCache.ConnectionRedis\bin\Debug\StackExchange.Redis.xml
+C:\Roberto\SolucaoDatabaseCache\DbCache.ConnectionRedis\obj\Debug\DbCache.ConnectionRedis.csproj.CoreCompileInputs.cache
+C:\Roberto\SolucaoDatabaseCache\DbCache.ConnectionRedis\obj\Debug\DbCache.ConnectionRedis.dll
+C:\Roberto\SolucaoDatabaseCache\DbCache.ConnectionRedis\obj\Debug\DbCache.ConnectionRedis.pdb

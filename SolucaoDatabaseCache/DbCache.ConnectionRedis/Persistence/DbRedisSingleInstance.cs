@@ -11,15 +11,17 @@ namespace DbCache.ConnectionRedis.Persistence
         private static string _redisHost;
         private static int _redisPort;
         private static int _redisIdDatabase;
+        private static string _redisPassword;
 
         private static readonly Lazy<ConnectionMultiplexer> _lazyConnection;
-        
+
         private static void ValidateSettings()
         {
             List<string> erros = new List<string>();
             SetRedisHost(erros);
             SetRedisPort(erros);
             SetRedisIdDatabase(erros);
+            SetRedisPassword(erros);
 
             if (erros.Count > 0)
             {
@@ -31,15 +33,15 @@ namespace DbCache.ConnectionRedis.Persistence
         private static void SetRedisHost(List<string> erros)
         {
             if (string.IsNullOrWhiteSpace(ConfigurationManager.AppSettings["REDIS_HOST"]))
-                erros.Add("A variável [REDIS_HOST] não foi definida no arquivo de configuração.");
-            
+                erros.Add("\r\nA variável [REDIS_HOST] não foi definida no arquivo de configuração.");
+
             _redisHost = ConfigurationManager.AppSettings["REDIS_HOST"];
         }
 
         private static void SetRedisPort(List<string> erros)
         {
             if (string.IsNullOrWhiteSpace(ConfigurationManager.AppSettings["REDIS_PORT"]))
-                erros.Add("A variável [REDIS_PORT] não foi definida no arquivo de configuração.");
+                erros.Add("\r\nA variável [REDIS_PORT] não foi definida no arquivo de configuração.");
 
             _redisPort = Convert.ToInt16(ConfigurationManager.AppSettings["REDIS_PORT"]);
         }
@@ -47,9 +49,19 @@ namespace DbCache.ConnectionRedis.Persistence
         private static void SetRedisIdDatabase(List<string> erros)
         {
             if (string.IsNullOrWhiteSpace(ConfigurationManager.AppSettings["REDIS_ID_DATABASE"]))
-                erros.Add("A variável [REDIS_ID_DATABASE] não foi definida no arquivo de configuração.");
+                erros.Add("\r\nA variável [REDIS_ID_DATABASE] não foi definida no arquivo de configuração.");
 
             _redisIdDatabase = Convert.ToInt16(ConfigurationManager.AppSettings["REDIS_ID_DATABASE"]);
+        }
+
+        private static void SetRedisPassword(List<string> erros)
+        {
+            var password = ConfigurationManager.AppSettings["REDIS_PASSWORD"];
+
+            if (password != null && string.IsNullOrWhiteSpace(password))
+                erros.Add("\r\nA variável [REDIS_PASSWORD] foi definida no arquivo de configuração, mas nenhum valor foi informado.\nDeclare essa variável, apenas se seu serviço exigir autenticação.");
+
+            _redisPassword = password;
         }
 
         static DbRedisSingleInstance()
@@ -58,7 +70,9 @@ namespace DbCache.ConnectionRedis.Persistence
 
             var configOptions = new ConfigurationOptions
             {
-                EndPoints = { { _redisHost, _redisPort } }
+                EndPoints = { { _redisHost, _redisPort } },
+                Password = _redisPassword,
+                AbortOnConnectFail = false
             };
 
             _lazyConnection = new Lazy<ConnectionMultiplexer>(() =>
@@ -88,7 +102,29 @@ namespace DbCache.ConnectionRedis.Persistence
         /// <summary>
         /// 
         /// </summary>
-        public static IDatabase DatabaseContext => _lazyConnection.Value.GetDatabase(db: _redisIdDatabase);
+        public static IDatabase DatabaseContext
+        {
+            get
+            {
+                try
+                {
+                    if (!RedisIsAvailable)
+                        throw new Exception("Serviço indisponível.");
+
+                    return _lazyConnection.Value.GetDatabase(db: _redisIdDatabase);
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception(ex.Message);
+                }
+
+            }
+        }
+
+        /// <summary>
+        /// Check if the redis service is available
+        /// </summary>
+        public static bool RedisIsAvailable => _lazyConnection.Value.IsConnected;
 
         /// <summary>
         /// Get all database keys
@@ -114,5 +150,7 @@ namespace DbCache.ConnectionRedis.Persistence
         {
             GetServer().FlushAllDatabases();
         }
+
+        
     }
 }

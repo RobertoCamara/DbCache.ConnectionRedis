@@ -1,11 +1,6 @@
-﻿using DbCache.ConnectionRedis.Persistence;
-using prmToolkit.Notification;
-using StackExchange.Redis;
+﻿using DbCache.ConnectionRedis.Standard.Persistence;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Configuration;
 
 namespace ConsoleAppSingleInstance
 {
@@ -26,6 +21,10 @@ namespace ConsoleAppSingleInstance
         {
             try
             {
+                string a = ConfigurationManager.AppSettings["REDIS_PASSWORD"];
+
+                Console.WriteLine("Serviço disponível: " + DbRedisSingleInstance.RedisIsAvailable);
+                
                 Cliente cliente = new Cliente { Cnpj = "1234567989", Telefone = new Telefone { Numero = "2199998878" } };
                 //Salvando ou atualizando um objeto complexo
                 //1ª opção
@@ -47,7 +46,7 @@ namespace ConsoleAppSingleInstance
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.InnerException.Message);
+                Console.WriteLine(ex.Message);
                 Console.ReadKey();
             }
 

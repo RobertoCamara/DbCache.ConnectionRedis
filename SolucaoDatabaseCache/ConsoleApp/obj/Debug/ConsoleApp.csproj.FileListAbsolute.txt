@@ -1,12 +1,13 @@
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleApp\bin\Debug\ConsoleApp.exe.config
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleApp\bin\Debug\ConsoleApp.exe
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleApp\bin\Debug\ConsoleApp.pdb
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleApp\bin\Debug\StackExchange.Redis.dll
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleApp\bin\Debug\StackExchange.Redis.xml
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleApp\obj\Debug\ConsoleApp.exe
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleApp\obj\Debug\ConsoleApp.pdb
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleApp\bin\Debug\Newtonsoft.Json.dll
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleApp\bin\Debug\Newtonsoft.Json.xml
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleApp\bin\Debug\DbCache.ConnectionRedis.dll
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleApp\bin\Debug\DbCache.ConnectionRedis.pdb
+C:\Roberto\SolucaoDatabaseCache\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+C:\Roberto\SolucaoDatabaseCache\ConsoleApp\bin\Debug\ConsoleApp.exe
+C:\Roberto\SolucaoDatabaseCache\ConsoleApp\bin\Debug\ConsoleApp.pdb
+C:\Roberto\SolucaoDatabaseCache\ConsoleApp\bin\Debug\DbCache.ConnectionRedis.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleApp\bin\Debug\StackExchange.Redis.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleApp\bin\Debug\Newtonsoft.Json.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleApp\bin\Debug\DbCache.ConnectionRedis.pdb
+C:\Roberto\SolucaoDatabaseCache\ConsoleApp\bin\Debug\StackExchange.Redis.xml
+C:\Roberto\SolucaoDatabaseCache\ConsoleApp\bin\Debug\Newtonsoft.Json.xml
+C:\Roberto\SolucaoDatabaseCache\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
+C:\Roberto\SolucaoDatabaseCache\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Roberto\SolucaoDatabaseCache\ConsoleApp\obj\Debug\ConsoleApp.exe
+C:\Roberto\SolucaoDatabaseCache\ConsoleApp\obj\Debug\ConsoleApp.pdb

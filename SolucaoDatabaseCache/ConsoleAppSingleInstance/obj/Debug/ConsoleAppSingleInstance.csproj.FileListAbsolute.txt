@@ -1,13 +1,111 @@
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\ConsoleAppSingleInstance.exe.config
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\ConsoleAppSingleInstance.exe
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\ConsoleAppSingleInstance.pdb
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\DbCache.ConnectionRedis.dll
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\StackExchange.Redis.dll
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\Newtonsoft.Json.dll
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\DbCache.ConnectionRedis.pdb
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\StackExchange.Redis.xml
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\Newtonsoft.Json.xml
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\obj\Debug\ConsoleAppSingleInstance.csprojResolveAssemblyReference.cache
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\obj\Debug\ConsoleAppSingleInstance.exe
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\obj\Debug\ConsoleAppSingleInstance.pdb
-C:\Users\roberto.TRACKBUS\OneDrive\Minha pasta Samich\Estudos\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\prmToolkit.ValidateCondition.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\ConsoleAppSingleInstance.exe.config
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\ConsoleAppSingleInstance.exe
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\ConsoleAppSingleInstance.pdb
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\netstandard.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.AppContext.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Collections.Concurrent.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Collections.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Collections.NonGeneric.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Collections.Specialized.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.ComponentModel.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Console.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Data.Common.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Diagnostics.Debug.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Diagnostics.Process.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Diagnostics.Tools.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Drawing.Primitives.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Dynamic.Runtime.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Globalization.Calendars.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Globalization.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Globalization.Extensions.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.IO.Compression.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.IO.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.IO.FileSystem.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.IO.Pipes.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Linq.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Linq.Expressions.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Linq.Parallel.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Linq.Queryable.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Net.Http.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Net.NameResolution.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Net.NetworkInformation.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Net.Ping.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Net.Primitives.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Net.Requests.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Net.Security.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Net.Sockets.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Net.WebSockets.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.ObjectModel.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Reflection.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Reflection.Extensions.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Reflection.Primitives.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Resources.Reader.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Resources.ResourceManager.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Resources.Writer.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Runtime.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Runtime.Extensions.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Runtime.Handles.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Runtime.InteropServices.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Runtime.Numerics.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Security.Claims.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Security.Principal.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Security.SecureString.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Text.Encoding.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Text.RegularExpressions.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Threading.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Threading.Overlapped.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Threading.Tasks.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Threading.Thread.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Threading.ThreadPool.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Threading.Timer.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.ValueTuple.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Xml.XDocument.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Xml.XmlDocument.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Xml.XPath.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\DbCache.ConnectionRedis.Standard.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\StackExchange.Redis.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\DbCache.ConnectionRedis.Standard.pdb
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\StackExchange.Redis.xml
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\obj\Debug\ConsoleAppSingleInstance.csprojResolveAssemblyReference.cache
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\obj\Debug\ConsoleAppSingleInstance.csproj.ConsoleAppSingleInstance.exe.config
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\obj\Debug\ConsoleAppSingleInstance.csproj.CoreCompileInputs.cache
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\obj\Debug\ConsoleAppSingleInstance.exe
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\obj\Debug\ConsoleAppSingleInstance.pdb
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\Newtonsoft.Json.dll
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\Newtonsoft.Json.xml
+C:\Roberto\SolucaoDatabaseCache\ConsoleAppSingleInstance\bin\Debug\System.Configuration.ConfigurationManager.dll

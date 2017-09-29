@@ -1,0 +1,4 @@
+C:\Roberto\SolucaoDatabaseCache\DbCache.ConnectionRedis.Standard\bin\Release\netstandard1.6\DbCache.ConnectionRedis.Standard.deps.json
+C:\Roberto\SolucaoDatabaseCache\DbCache.ConnectionRedis.Standard\obj\Release\netstandard1.6\DbCache.ConnectionRedis.Standard.csprojResolveAssemblyReference.cache
+C:\Roberto\SolucaoDatabaseCache\DbCache.ConnectionRedis.Standard\obj\Release\netstandard1.6\DbCache.ConnectionRedis.Standard.csproj.CoreCompileInputs.cache
+C:\Roberto\SolucaoDatabaseCache\DbCache.ConnectionRedis.Standard\obj\Release\netstandard1.6\DbCache.ConnectionRedis.Standard.AssemblyInfo.cs
