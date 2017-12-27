@@ -57,6 +57,7 @@ Install-Package DbCache.ConnectionRedis.Standard
     <add key ="REDIS_HOST" value="localhost"/>
     <add key="REDIS_PORT" value="6379"/>
     <add key="REDIS_ID_DATABASE" value="0"/>
+    <add key="REDIS_PASSWORD" value="passwordRedis" /><!--para usar com autenticação-->
   </appSettings>
 ```
 
