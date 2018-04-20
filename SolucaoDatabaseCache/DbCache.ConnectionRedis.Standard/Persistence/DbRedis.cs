@@ -48,6 +48,11 @@ namespace DbCache.ConnectionRedis.Standard.Persistence
         }
 
         /// <summary>
+        /// Check if the redis service is available
+        /// </summary>
+        public bool RedisIsAvailable => _redis.Value.IsConnected;
+
+        /// <summary>
         /// Get server connected
         /// </summary>
         /// <returns></returns>

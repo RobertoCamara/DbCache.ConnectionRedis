@@ -58,7 +58,7 @@
           "ref/netstandard1.3/_._": {}
         }
       },
-      "NETStandard.Library/2.0.0": {
+      "NETStandard.Library/2.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -1600,10 +1600,10 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "NETStandard.Library/2.0.0": {
-      "sha512": "7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+    "NETStandard.Library/2.0.1": {
+      "sha512": "oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
       "type": "package",
-      "path": "netstandard.library/2.0.0",
+      "path": "netstandard.library/2.0.1",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -1724,7 +1724,7 @@
         "build/netstandard2.0/ref/netstandard.dll",
         "build/netstandard2.0/ref/netstandard.xml",
         "lib/netstandard1.0/_._",
-        "netstandard.library.2.0.0.nupkg.sha512",
+        "netstandard.library.2.0.1.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
     },
@@ -5300,7 +5300,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.0",
+      "NETStandard.Library >= 2.0.1",
       "Newtonsoft.Json >= 10.0.3",
       "StackExchange.Redis >= 1.2.6",
       "System.Configuration.ConfigurationManager >= 4.4.0"
@@ -5312,15 +5312,12 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Roberto\\SolucaoDatabaseCache\\DbCache.ConnectionRedis.Standard\\DbCache.ConnectionRedis.Standard.csproj",
+      "projectUniqueName": "C:\\Roberto\\MyPackagesNuget\\DatabaseCache\\DbCache.ConnectionRedis.Standard\\DbCache.ConnectionRedis.Standard.csproj",
       "projectName": "DbCache.ConnectionRedis.Standard",
-      "projectPath": "C:\\Roberto\\SolucaoDatabaseCache\\DbCache.ConnectionRedis.Standard\\DbCache.ConnectionRedis.Standard.csproj",
+      "projectPath": "C:\\Roberto\\MyPackagesNuget\\DatabaseCache\\DbCache.ConnectionRedis.Standard\\DbCache.ConnectionRedis.Standard.csproj",
       "packagesPath": "C:\\Users\\roberto\\.nuget\\packages\\",
-      "outputPath": "C:\\Roberto\\SolucaoDatabaseCache\\DbCache.ConnectionRedis.Standard\\obj\\",
+      "outputPath": "C:\\Roberto\\MyPackagesNuget\\DatabaseCache\\DbCache.ConnectionRedis.Standard\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5351,23 +5348,23 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
-          "StackExchange.Redis": {
-            "target": "Package",
-            "version": "1.2.6"
-          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.0",
+            "version": "[2.0.1, )",
             "autoReferenced": true
-          },
-          "System.Configuration.ConfigurationManager": {
-            "target": "Package",
-            "version": "4.4.0"
           },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "10.0.3"
+            "version": "[10.0.3, )"
+          },
+          "StackExchange.Redis": {
+            "target": "Package",
+            "version": "[1.2.6, )"
+          },
+          "System.Configuration.ConfigurationManager": {
+            "target": "Package",
+            "version": "[4.4.0, )"
           }
         },
         "imports": [

@@ -17,13 +17,13 @@ Composição:
 - DbRedisSingleInstanceExtensionMethod</description>
     <dependencies>
       <group targetFramework=".NETStandard2.0">
+        <dependency id="Newtonsoft.Json" version="10.0.3" exclude="Build,Analyzers" />
         <dependency id="StackExchange.Redis" version="1.2.6" exclude="Build,Analyzers" />
         <dependency id="System.Configuration.ConfigurationManager" version="4.4.0" exclude="Build,Analyzers" />
-        <dependency id="Newtonsoft.Json" version="10.0.3" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Roberto\MyPackagesNuget\DatabaseCache\DbCache.ConnectionRedis.Standard\bin\Debug\netstandard2.0\DbCache.ConnectionRedis.Standard.dll" target="lib\netstandard2.0\DbCache.ConnectionRedis.Standard.dll" />
+    <file src="C:\Roberto\MyPackagesNuget\DatabaseCache\DbCache.ConnectionRedis.Standard\bin\Release\netstandard2.0\DbCache.ConnectionRedis.Standard.dll" target="lib\netstandard2.0\DbCache.ConnectionRedis.Standard.dll" />
   </files>
 </package>
