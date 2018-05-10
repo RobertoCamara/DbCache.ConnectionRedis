@@ -1,20 +1,21 @@
 ﻿using DbCache.ConnectionRedis.Persistence;
-using StackExchange.Redis;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+
 
 namespace ConsoleApp
 {
 
     class Program
     {
+        //somente para simular autenticação na aplicação e não com REDIS
         const string LOGIN_ADM = "admin";
-        const string PASSWORD_ADM = "1234";
+        const string PASSWORD_ADM = "Redis@dmin";
 
         private static bool _isAuthenticated = false;
 
-        private static DbRedis conn = new DbRedis("localhost", 6379, idDb: 1);
+        private static DbRedis conn = new DbRedis("192.168.1.44", 6379, idDb: 0, password: PASSWORD_ADM);
 
         static void Main(string[] args)
         {

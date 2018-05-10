@@ -69,7 +69,8 @@ namespace DbCache.ConnectionRedis.Persistence
         /// <returns>IEnumerable<RedisKey></returns>
         private IEnumerable<RedisKey> GetAllRedisKey()
         {
-            return GetServer().Keys(database: _idDb, pattern: default(RedisValue), pageSize: 10, flags: CommandFlags.None);
+            var keys = GetServer()?.Keys(database: _idDb, pattern: default(RedisValue), pageSize: 10, flags: CommandFlags.None);
+            return keys;
         }
 
         /// <summary>

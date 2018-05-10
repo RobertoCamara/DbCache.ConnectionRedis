@@ -27,7 +27,7 @@ namespace DbCache.ConnectionRedis.Standard.Persistence
         /// <param name="port">Port to create endpoint</param>
         /// <param name="allowAdmin">Indicates whether admin operations should be allowed</param>
         /// <param name="idDb">Database identifier</param>
-        public DbRedis(string host, int port, bool allowAdmin = true, int idDb = 0)
+        public DbRedis(string host, int port, bool allowAdmin = true, int idDb = 0, string password = "")
         {
             _host = host;
             _port = port;
@@ -36,7 +36,9 @@ namespace DbCache.ConnectionRedis.Standard.Persistence
             _configOptions = new ConfigurationOptions
             {
                 EndPoints = { { host, port } },
-                AllowAdmin = allowAdmin
+                AllowAdmin = allowAdmin,
+                Password = password,
+                AbortOnConnectFail = false
             };
 
             _redis = new Lazy<ConnectionMultiplexer>(() =>

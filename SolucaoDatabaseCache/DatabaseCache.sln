@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbCache.ConnectionRedis.Standard", "DbCache.ConnectionRedis.Standard\DbCache.ConnectionRedis.Standard.csproj", "{31356ED6-4DE3-454C-89E2-B598B10ABE74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbCache.ConnectionRedis", "DbCache.ConnectionRedis\DbCache.ConnectionRedis.csproj", "{DFE8AC7B-3A3C-46C9-BA88-3F24FB52F473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{209DBADF-FD7C-4167-8F6E-00119F210E8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppSingleInstanceStandard", "ConsoleAppSingleInstanceStandard\ConsoleAppSingleInstanceStandard.csproj", "{D359052C-7191-4B50-811A-25DA6210C811}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31356ED6-4DE3-454C-89E2-B598B10ABE74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31356ED6-4DE3-454C-89E2-B598B10ABE74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31356ED6-4DE3-454C-89E2-B598B10ABE74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31356ED6-4DE3-454C-89E2-B598B10ABE74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFE8AC7B-3A3C-46C9-BA88-3F24FB52F473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE8AC7B-3A3C-46C9-BA88-3F24FB52F473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE8AC7B-3A3C-46C9-BA88-3F24FB52F473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE8AC7B-3A3C-46C9-BA88-3F24FB52F473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{209DBADF-FD7C-4167-8F6E-00119F210E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209DBADF-FD7C-4167-8F6E-00119F210E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209DBADF-FD7C-4167-8F6E-00119F210E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{209DBADF-FD7C-4167-8F6E-00119F210E8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D359052C-7191-4B50-811A-25DA6210C811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D359052C-7191-4B50-811A-25DA6210C811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D359052C-7191-4B50-811A-25DA6210C811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D359052C-7191-4B50-811A-25DA6210C811}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F0C7E10-D4DA-4600-93BF-4597DF9D5580}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://racprojects.visualstudio.com/
+		SccProjectUniqueName0 = DbCache.ConnectionRedis.Standard\\DbCache.ConnectionRedis.Standard.csproj
+		SccProjectName0 = DbCache.ConnectionRedis.Standard
+		SccAuxPath0 = https://racprojects.visualstudio.com
+		SccLocalPath0 = DbCache.ConnectionRedis.Standard
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = DbCache.ConnectionRedis\\DbCache.ConnectionRedis.csproj
+		SccProjectName1 = DbCache.ConnectionRedis
+		SccAuxPath1 = https://racprojects.visualstudio.com
+		SccLocalPath1 = DbCache.ConnectionRedis
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = ConsoleApp\\ConsoleApp.csproj
+		SccProjectName2 = ConsoleApp
+		SccAuxPath2 = https://racprojects.visualstudio.com
+		SccLocalPath2 = ConsoleApp
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = ConsoleAppSingleInstanceStandard\\ConsoleAppSingleInstanceStandard.csproj
+		SccProjectName3 = ConsoleAppSingleInstanceStandard
+		SccAuxPath3 = https://racprojects.visualstudio.com
+		SccLocalPath3 = ConsoleAppSingleInstanceStandard
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal
