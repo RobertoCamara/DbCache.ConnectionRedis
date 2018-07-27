@@ -9,7 +9,7 @@ C:\Roberto\MyPackagesNuget\DatabaseCache\ConsoleApp\bin\Debug\System.IO.Compress
 C:\Roberto\MyPackagesNuget\DatabaseCache\ConsoleApp\bin\Debug\DbCache.ConnectionRedis.pdb
 C:\Roberto\MyPackagesNuget\DatabaseCache\ConsoleApp\bin\Debug\Newtonsoft.Json.xml
 C:\Roberto\MyPackagesNuget\DatabaseCache\ConsoleApp\bin\Debug\StackExchange.Redis.xml
-C:\Roberto\MyPackagesNuget\DatabaseCache\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
+C:\Roberto\MyPackagesNuget\DatabaseCache\ConsoleApp\obj\Debug\ConsoleApp.csprojAssemblyReference.cache
 C:\Roberto\MyPackagesNuget\DatabaseCache\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
 C:\Roberto\MyPackagesNuget\DatabaseCache\ConsoleApp\obj\Debug\ConsoleApp.csproj.CopyComplete
 C:\Roberto\MyPackagesNuget\DatabaseCache\ConsoleApp\obj\Debug\ConsoleApp.exe

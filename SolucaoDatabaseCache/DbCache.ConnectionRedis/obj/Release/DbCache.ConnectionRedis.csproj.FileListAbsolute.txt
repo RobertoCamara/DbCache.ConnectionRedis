@@ -4,7 +4,6 @@ C:\Roberto\MyPackagesNuget\DatabaseCache\DbCache.ConnectionRedis\bin\Release\New
 C:\Roberto\MyPackagesNuget\DatabaseCache\DbCache.ConnectionRedis\bin\Release\StackExchange.Redis.dll
 C:\Roberto\MyPackagesNuget\DatabaseCache\DbCache.ConnectionRedis\bin\Release\Newtonsoft.Json.xml
 C:\Roberto\MyPackagesNuget\DatabaseCache\DbCache.ConnectionRedis\bin\Release\StackExchange.Redis.xml
-C:\Roberto\MyPackagesNuget\DatabaseCache\DbCache.ConnectionRedis\obj\Release\DbCache.ConnectionRedis.csprojResolveAssemblyReference.cache
 C:\Roberto\MyPackagesNuget\DatabaseCache\DbCache.ConnectionRedis\obj\Release\DbCache.ConnectionRedis.csproj.CoreCompileInputs.cache
 C:\Roberto\MyPackagesNuget\DatabaseCache\DbCache.ConnectionRedis\obj\Release\DbCache.ConnectionRedis.csproj.CopyComplete
 C:\Roberto\MyPackagesNuget\DatabaseCache\DbCache.ConnectionRedis\obj\Release\DbCache.ConnectionRedis.dll

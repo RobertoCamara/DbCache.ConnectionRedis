@@ -104,7 +104,7 @@ C:\Roberto\MyPackagesNuget\DatabaseCache\ConsoleAppSingleInstanceStandard\bin\De
 C:\Roberto\MyPackagesNuget\DatabaseCache\ConsoleAppSingleInstanceStandard\bin\Debug\DbCache.ConnectionRedis.Standard.pdb
 C:\Roberto\MyPackagesNuget\DatabaseCache\ConsoleAppSingleInstanceStandard\bin\Debug\Newtonsoft.Json.xml
 C:\Roberto\MyPackagesNuget\DatabaseCache\ConsoleAppSingleInstanceStandard\bin\Debug\StackExchange.Redis.xml
-C:\Roberto\MyPackagesNuget\DatabaseCache\ConsoleAppSingleInstanceStandard\obj\Debug\ConsoleAppSingleInstanceStandard.csprojResolveAssemblyReference.cache
+C:\Roberto\MyPackagesNuget\DatabaseCache\ConsoleAppSingleInstanceStandard\obj\Debug\ConsoleAppSingleInstanceStandard.csprojAssemblyReference.cache
 C:\Roberto\MyPackagesNuget\DatabaseCache\ConsoleAppSingleInstanceStandard\obj\Debug\ConsoleAppSingleInstanceStandard.exe.config
 C:\Roberto\MyPackagesNuget\DatabaseCache\ConsoleAppSingleInstanceStandard\obj\Debug\ConsoleAppSingleInstanceStandard.csproj.CoreCompileInputs.cache
 C:\Roberto\MyPackagesNuget\DatabaseCache\ConsoleAppSingleInstanceStandard\obj\Debug\ConsoleAppSingleInstanceStandard.csproj.CopyComplete

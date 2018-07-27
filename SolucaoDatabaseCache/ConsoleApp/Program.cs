@@ -15,7 +15,7 @@ namespace ConsoleApp
 
         private static bool _isAuthenticated = false;
 
-        private static DbRedis conn = new DbRedis("192.168.1.44", 6379, idDb: 0, password: PASSWORD_ADM);
+        private static DbRedis conn = new DbRedis("192.168.1.4", 6379, idDb: 15, password: PASSWORD_ADM);
 
         static void Main(string[] args)
         {
@@ -66,7 +66,7 @@ namespace ConsoleApp
             do
             {
                 Console.Clear();
-                Console.WriteLine("[1]- Delete All Database Keys | [2]- Delete All Keys From All Databases | [3]- Menu Principal");
+                Console.WriteLine("[1]- Delete All Database Keys | [2]- Delete All Keys From All Databases | [3]- GetAllKeys | [4]- Menu Principal");
                 string opcao = Console.ReadLine();
                 switch (opcao)
                 {
@@ -77,6 +77,9 @@ namespace ConsoleApp
                         DeleteAllKeysFromAllDatabases();
                         break;
                     case "3":
+                        GetAllDatabaseKeys();
+                        break;
+                    case "4":
                         Menu();
                         break;
                 }
@@ -105,6 +108,22 @@ namespace ConsoleApp
             {
                 conn.DeleteAllKeysFromAllDatabases();
                 Console.WriteLine("All the keys deleted from the server");
+                Console.ReadKey();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            MenuAdministratorAutenticado();
+        }
+
+        private static void GetAllDatabaseKeys()
+        {
+            try
+            {
+                var keys = conn.GetAllDatabaseKeys().ToList();
+
+                Console.WriteLine("Get all keys from the server -> " + keys);
                 Console.ReadKey();
             }
             catch (Exception ex)
