@@ -11,7 +11,7 @@ namespace ConsoleApp
     {
         //somente para simular autenticação na aplicação e não com REDIS
         const string LOGIN_ADM = "admin";
-        const string PASSWORD_ADM = "Redis@dmin";
+        const string PASSWORD_ADM = "SuaSenha";
 
         private static bool _isAuthenticated = false;
 
