@@ -19,18 +19,18 @@ namespace ConsoleAppSingleInstanceDynamicNode
     {
         static DbRedisConfig dtoServer1 = new DbRedisConfig
         {
-            RedisHost = "192.168.1.4",
+            RedisHost = "IpHost1",
             RedisPort = 6379,
-            RedisPassword = "Redis@dmin",
+            RedisPassword = "SuaSenha",
             AllowAdmin = true,
             RedisIdDatabaseDefault = 4
         };
 
         static DbRedisConfig dtoServer2 = new DbRedisConfig
         {
-            RedisHost = "192.168.1.14",
+            RedisHost = "IpHost2",
             RedisPort = 6379,
-            RedisPassword = "Redis@dmin",
+            RedisPassword = "SuaSenha",
             AllowAdmin = true
         };
                
