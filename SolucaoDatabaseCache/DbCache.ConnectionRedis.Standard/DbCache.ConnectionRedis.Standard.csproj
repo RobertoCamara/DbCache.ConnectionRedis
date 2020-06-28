@@ -29,7 +29,10 @@ Composição:
 - DbRedisSingleInstanceExtensionMethod</Description>
     <Version>2.0.1</Version>
     <PackageTags>redis in-memory-database nosql keyvalue-store netstandard roberto-camara</PackageTags>
+<<<<<<< HEAD
     <RepositoryUrl>https://github.com/RobertoCamara/DbCache.ConnectionRedis.git</RepositoryUrl>
+=======
+>>>>>>> 515def15becea7aa15f8de801c84134d134546a7
     <PackageReleaseNotes>Enable SourceLink</PackageReleaseNotes>
   </PropertyGroup>
 
