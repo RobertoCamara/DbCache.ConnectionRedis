@@ -1,4 +1,0 @@
-C:\Roberto\MyPackagesNuget\DatabaseCache\DbCache.ConnectionRedis.Standard\obj\Debug\netstandard1.5\DbCache.ConnectionRedis.Standard.csproj.CoreCompileInputs.cache
-C:\Roberto\MyPackagesNuget\DatabaseCache\DbCache.ConnectionRedis.Standard\obj\Debug\netstandard1.5\DbCache.ConnectionRedis.Standard.AssemblyInfoInputs.cache
-C:\Roberto\MyPackagesNuget\DatabaseCache\DbCache.ConnectionRedis.Standard\obj\Debug\netstandard1.5\DbCache.ConnectionRedis.Standard.AssemblyInfo.cs
-C:\Roberto\MyPackagesNuget\DatabaseCache\DbCache.ConnectionRedis.Standard\obj\Debug\netstandard1.5\DbCache.ConnectionRedis.Standard.csprojResolveAssemblyReference.cache
