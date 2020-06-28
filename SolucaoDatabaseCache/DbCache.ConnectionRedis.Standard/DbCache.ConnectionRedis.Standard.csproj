@@ -22,14 +22,14 @@
     <Company />
     <Product />
     <Description>Encapsula a conexão e estende métodos do Redis.
-
 Composição:
-
 - DbRedis
-
 - DbRedisSingleInstance
-
+- DbRedisMultiServer
 - DbRedisSingleInstanceExtensionMethod</Description>
+    <Version>2.0.1</Version>
+    <PackageTags>redis in-memory-database nosql keyvalue-store netstandard roberto-camara</PackageTags>
+    <PackageReleaseNotes>Enable SourceLink</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
